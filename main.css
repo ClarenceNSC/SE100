@@ -1,4 +1,9 @@
 h1 {
     /*Css properties are key-value pairs*/
-    color: "red";
+    color: red;
+}
+
+p{ 
+    /*Css properties are key-value pairs*/
+    color: "blue";
 }
