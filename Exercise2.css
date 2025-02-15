@@ -4,26 +4,26 @@ h1 {
  }
 
 
-/* Style company information */ {
+.company-info {
   background-color: #f0f0f0;
   padding: 10px;
 }
 
 
-/* Style stock details */ {
+.stock-details {
   margin-top: 20px;
 }
 
 
-/* Use descendant combinator to style all paragraphs within stock details */ {
+.stock-details p {
   font-style: italic;
 }
 
 
-/* Style specific paragraphs within stock details using the descendant combinator */ {
+.current-price p {
   color: green;
 }
 
-/* Style specific paragraphs within stock details using the descendant combinator */ {
+.price-change p {
   color: red;
 }
