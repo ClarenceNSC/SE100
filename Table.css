@@ -1,0 +1,31 @@
+#sampleTable {
+    text-align:center;
+}
+.graybg-blackborder {
+    background: #ccc;
+    border-left: 2px #000 solid;
+    border-right: 2px #000 solid;
+    border-top: 1px #000 solid;
+    border-bottom: 2px #000 solid;
+    font-weight: bold;
+}
+.redbg-blackborder {
+    background: red;
+    border-left: 2px #000 solid;
+    border-right: 2px #000 solid;
+    border-top: 1px #000 solid;
+    border-bottom: 2px #000 solid;
+    font-weight: bold;
+}
+.dottedBottomBorder {
+    border-bottom: #000 1px dotted;
+}
+.rightThinBorder {
+    border-right: 1px #000 solid;
+}
+.yellowBg {
+    background-color: yellow;
+}
+.thickBottom {
+    border-bottom: 2px #000 solid;
+}
