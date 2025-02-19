@@ -6,7 +6,7 @@
 	color: red;
 }
 
-#display-block .welcome {
+#display-block  {
 	display: block;
 	background-color: blueviolet;	 
 	border: 10px dashed white;
