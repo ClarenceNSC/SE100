@@ -9,5 +9,5 @@
 #display-block .welcome {
 	display: block;
 	background-color: blueviolet;	 
-	border-radius: dotted; 
+	border: 10px dashed white;
 }
