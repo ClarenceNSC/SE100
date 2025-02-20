@@ -1,1 +1,1 @@
-console.log("Hello World");
+console.log("Congrats! You have printed your first line of code");
