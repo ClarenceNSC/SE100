@@ -1,5 +1,4 @@
-let stockPrice = 300
-let nvdiaPrice = 139.4
+const companyName = "Amazon"
+const companyRating = 5
 
-
-console.log(stockPrice + Math.round(nvdiaPrice))
+console.log(companyName + "has a customer satisfaction rating" + companyRating)
