@@ -1,4 +1,4 @@
-const companyName = "Amazon"
-const companyRating = 5
+const DayOneClosingPrice = "87.14"
+const DayTwoClosingPrice = "84.22"
 
-console.log(companyName + " has a customer satisfaction rating " + companyRating)
+consolelog(DayOneClosingPrice + DayTwoClosingPrice)
