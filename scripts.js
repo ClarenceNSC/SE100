@@ -1,9 +1,11 @@
-const DayOneClosingPrice = "87.14";
-const DayTwoClosingPrice = "84.22";
+let money = 6000 
 
-console.log(DayOneClosingPrice + DayTwoClosingPrice)
+money += 3000
+console.log(money)
 
-const DayOneClosePx = parseFloat (DayOneClosingPrice);
-const DayTwoClosePx = parseFloat (DayTwoClosingPrice);
+money *= 3
+console.log(money)
 
-console.log (DayOneClosePx+DayTwoClosePx)
+
+
+// Write your code below
