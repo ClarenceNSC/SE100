@@ -41,6 +41,8 @@ const disneyData = {
 	close: "121.09",
 }
 
+disneyData.volume = "1512311"
+console.log (disneyData)
 
 
 // Write your code below
