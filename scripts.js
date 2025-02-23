@@ -1,6 +1,9 @@
-const companyName="Amazon" 
-const desc = "is a Nasdaq Top 10 Company"
+const companyName = "Metaa"
 
-console.log(companyName + " " + desc)
+console.log(companyName.length)
 
-console.log (companyName.toUpperCase())
+const partialString = companyName.substring (0,4);
+
+
+
+// Write your code below
