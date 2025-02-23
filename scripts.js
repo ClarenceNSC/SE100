@@ -1,11 +1,6 @@
-let money = 6000 
+const companyName="Amazon" 
+const desc = "is a Nasdaq Top 10 Company"
 
-money += 3000
-console.log(money)
+console.log(companyName + " " + desc)
 
-money *= 3
-console.log ("money: ", money) 
-
-
-
-// Write your code below
+console.log (companyName.toUpperCase())
