@@ -17,5 +17,10 @@ const MSFTStockClosingPrices = [
     // Write your code below
 
     for (let index3 = 0; index3 < MSFTStockClosingPrices.length; index3++ ) {
-        console.log(MSFTStockClosingPrices[index3])
+        console.log(MSFTStockClosingPrices[index3]['Monday']);
+        console.log(MSFTStockClosingPrices[index3]['Tuesday']);
+        console.log(MSFTStockClosingPrices[index3]['Wednesday']);
+        console.log(MSFTStockClosingPrices[index3]['Thursday']);
+        console.log(MSFTStockClosingPrices[index3]['Friday']);
+
     }
