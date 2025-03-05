@@ -10,3 +10,5 @@ function findMax() {
             maxPrice = value;
         }
     }
+
+    findMax();
