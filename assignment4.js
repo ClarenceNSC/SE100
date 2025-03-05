@@ -9,6 +9,8 @@ function findMax() {
         if (value > maxPrice) {
             maxPrice = value;
         }
+    }
         console.log(maxPrice);
     }
+
     findMax();
