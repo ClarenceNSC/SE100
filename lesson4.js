@@ -16,13 +16,35 @@ const MSFTStockClosingPrices = [
     
     // Write your code below
 
-    let result = 0; 
+    let result = 0;
+    //let index = 0; 
 
-    for (let index3 = 0; index3 < MSFTStockClosingPrices.length; index3++ ) {
-        result+= MSFTStockClosingPrices[index3]['Monday'];
-        result+= MSFTStockClosingPrices[index3]['Tuesday'];
-        result+= MSFTStockClosingPrices[index3]['Wednesday'];
-        result+= MSFTStockClosingPrices[index3]['Thursday'];
-        result+= MSFTStockClosingPrices[index3]['Friday'];
-      }
-      console.log (result)
+    //for (let index3 = 0; index3 < MSFTStockClosingPrices.length; index3++ ) {
+        //result += MSFTStockClosingPrices[index3]['Monday'];
+        //result += MSFTStockClosingPrices[index3]['Tuesday'];
+        //result += MSFTStockClosingPrices[index3]['Wednesday'];
+        //result += MSFTStockClosingPrices[index3]['Thursday'];
+        //result += MSFTStockClosingPrices[index3]['Friday'];
+      //}
+      //console.log (result)
+
+      //for (let value of MSFTStockClosingPrices) {
+        //result += value ['Monday'];
+       // result += value ['Tuesday'];
+       // result += value ['Wednesday'];
+        //result += value ['Thursday'];
+       // result += value ['Friday'];
+      //}
+      // console.log(result)//
+
+    // while (index < MSFTStockClosingPrices.length) {
+    //    result += MSFTStockClosingPrices [index]['Monday'];
+    //    result += MSFTStockClosingPrices [index]['Tuesday'];
+    //    result += MSFTStockClosingPrices [index]['Wednesday'];
+    //    result += MSFTStockClosingPrices [index]['Thursday'];
+    //    result += MSFTStockClosingPrices [index]['Friday'];
+    //    index ++;
+    // }
+    //    console.log (result)//
+
+    const amdPrices = [90.21, 89.15, 88.15, 87.12, 102.21, 100.12, 79.82];
