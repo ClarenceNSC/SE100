@@ -12,5 +12,4 @@ function findMax() {
     }
     console.log(maxPrice)
 }
-    findMax()
-    
+    findMax();
