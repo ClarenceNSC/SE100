@@ -1,22 +1,22 @@
-const MSFTStockClosingPrices = [
-    {
-        Monday: 254.12,
-        Tuesday: 253.12,
-        Wednesday: 256.97,
-        Thursday: 257.52,
-        Friday: 258.93
-    },
-    {
-        Monday: 292.20,
-        Tuesday: 289.73,
-        Wednesday: 291.04,
-        Thursday: 294.55,
-        Friday: 296.29
-    }]
+//const MSFTStockClosingPrices = [
+    //{
+   //     Monday: 254.12,
+  //      Tuesday: 253.12,
+   //     Wednesday: 256.97,
+  //      Thursday: 257.52,
+  //      Friday: 258.93
+  //  },
+   // {
+  //      Monday: 292.20,
+ //       Tuesday: 289.73,
+  //      Wednesday: 291.04,
+  //      Thursday: 294.55,
+  //      Friday: 296.29
+ //   }]
     
     // Write your code below
 
-    let result = 0;
+  //  let result = 0;
     //let index = 0; 
 
     //for (let index3 = 0; index3 < MSFTStockClosingPrices.length; index3++ ) {
@@ -47,4 +47,57 @@ const MSFTStockClosingPrices = [
     // }
     //    console.log (result)//
 
-    const amdPrices = [90.21, 89.15, 88.15, 87.12, 102.21, 100.12, 79.82];
+ //     function getBetween() {
+//      const MSFTStockClosingPrices = [254.12, 253.12, 256.97, 257.52, 258.93];
+//
+//      let result = 0;
+//
+//        for (let value of MSFTStockClosingPrices) {
+ //         if (value > 254) {
+//            if (value < 257) {
+//          }
+//          result += 1;
+//      }
+//    }
+//        console.log (result);
+ // }
+ //       getBetween()
+
+
+
+        const MSFTStockClosingPrices = [254.12, 253.12, 256.97, 257.52, 258.93];
+        const AAPLStockClosingPrices = [256.45, 255.25, 259.10, 260.75, 261.88];
+
+
+    function getBetween(stockClosingPrices) {
+        let result = 0;
+
+    for (let value of stockClosingPrices) {
+      if (value > 254) {
+        if (value < 257) {
+          result +=1;
+    }
+  }
+  console.log (result);
+}
+    }
+        getBetween(MSFTStockClosingPrices);
+        getBetween(AAPLStockClosingPrices);
+
+
+        function getBetween(stockClosingPrices) {
+          let result = 0;
+          
+          for (let value of stockClosingPrices) {
+            if (value > 254) {
+              if (value < 257) {
+                result += 1;
+              }
+            }
+          }
+        
+          console.log(result);
+        }
+        
+        getBetween(MSFTStockClosingPrices);
+        getBetween(AAPLStockClosingPrices);
