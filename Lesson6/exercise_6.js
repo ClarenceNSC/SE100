@@ -12,6 +12,7 @@ function WelcomeMessagesList(props) {
     return props.users.map((user) => {
         return (
             <WelcomeMessage 
+                key={user.name}
                 name={user.name}
                 country={user.country}
             />

@@ -1,24 +1,27 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>React</title>
+    </head>
+  <body>
 
-<head>
-  <title>Adding CSS</title>
-  <script type = "text/javascript" src = "../scripts.js"></script>
-</head>
+    <h2>Introduction to React</h2>
+    <p>This page demonstrates using React.</p>
 
-<body>
-  <h3>Methods of Adding CSS</h3>
-  <!-- Create 3 Links to inline.html, internal.html and external.html -->
-  <!-- Place these 3 links in an ordered list -->
-  <ol>
-    <li><a href="inline.html">Inline</a></li> 
-    <li><a href="internal.html">Internal</a></li> 
-    <li><a href="external.html">External</a></li> 
+    <!-- Default container for site content -->
+    <div id="root"></div>
 
-  </ol>
-
-
-
-</body>
-
+    <!-- Load React -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js" -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    
+    <!-- Load Babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin></script>
+    
+    <!-- Load the JS file -->
+    <script src="root.js" type="text/jsx"></script>
+  </body>
 </html>
